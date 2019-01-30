@@ -5,9 +5,9 @@
 #                                                     +:+ +:+         +:+      #
 #    By: dfinnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/12/22 12:50:54 by dfinnis           #+#    #+#              #
-#    Updated: 2018/12/22 12:50:56 by dfinnis          ###   ########.fr        #
+#    Created: 2019/01/30 09:57:18 by dfinnis           #+#    #+#              #
+#    Updated: 2019/01/30 09:57:20 by dfinnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-ifconfig | grep 'inet' | tail -n 2 | head -n 1 | cut -d ' ' -f 2
+ifconfig | grep netmask | tail -n 1 | cut -d ' ' -f 2

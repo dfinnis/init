@@ -5,9 +5,9 @@
 #                                                     +:+ +:+         +:+      #
 #    By: dfinnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/12/22 12:50:01 by dfinnis           #+#    #+#              #
-#    Updated: 2018/12/22 12:50:03 by dfinnis          ###   ########.fr        #
+#    Created: 2019/01/30 09:56:36 by dfinnis           #+#    #+#              #
+#    Updated: 2019/01/30 09:56:38 by dfinnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-netstat -r -n | grep default | head -1 | awk '{print $2}'
+route -n get default | grep gateway | cut -d ' ' -f 6

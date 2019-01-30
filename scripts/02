@@ -1,13 +1,25 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    02                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: dfinnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/01/30 09:57:59 by dfinnis           #+#    #+#              #
-#    Updated: 2019/01/30 09:58:00 by dfinnis          ###   ########.fr        #
+#    Created: 2019/01/30 09:59:52 by dfinnis           #+#    #+#              #
+#    Updated: 2019/01/30 09:59:53 by dfinnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-/etc/hostname
+if [ $(id -u $1) -eq $(id: ‘$1’: no such user)];then
+	echo "no user: $1"
+else
+	echo "locking $1 account"
+	sudo passwd --lock $1
+	echo "finding $1 precesses"
+	sudo pgrep -u $1
+	echo "killing $1 processes"
+	sudo pkill -9 -u $1
+	echo "deleting user"
+	sudo deluser --remove-home $1
+	echo "user $1 deleted"
+fi

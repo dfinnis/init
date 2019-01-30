@@ -5,10 +5,12 @@
 #                                                     +:+ +:+         +:+      #
 #    By: dfinnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/12/22 12:50:16 by dfinnis           #+#    #+#              #
-#    Updated: 2018/12/22 12:50:18 by dfinnis          ###   ########.fr        #
+#    Created: 2019/01/30 09:56:59 by dfinnis           #+#    #+#              #
+#    Updated: 2019/01/30 09:57:00 by dfinnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-echo "The provider are the Name Server records."
-whois slash16.org | grep "Name Server"
+#Amazom AWS
+
+ARG=`host slash16.org | grep 'address' | cut -d ' ' -f 4 | head -n 1`;
+whois $ARG

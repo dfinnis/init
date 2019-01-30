@@ -5,9 +5,16 @@
 #                                                     +:+ +:+         +:+      #
 #    By: dfinnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/01/26 14:57:27 by dfinnis           #+#    #+#              #
-#    Updated: 2019/01/26 14:57:28 by dfinnis          ###   ########.fr        #
+#    Created: 2019/01/30 09:58:51 by dfinnis           #+#    #+#              #
+#    Updated: 2019/01/30 09:58:52 by dfinnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+#ps aux | grep tail to get PID of the process
+#sudo kill -9 <PID>
 
+#or
+sudo pkill tail
+
+#or
+#sudo pkill $1

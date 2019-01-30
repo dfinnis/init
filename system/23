@@ -5,9 +5,22 @@
 #                                                     +:+ +:+         +:+      #
 #    By: dfinnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/01/26 14:58:08 by dfinnis           #+#    #+#              #
-#    Updated: 2019/01/26 14:58:09 by dfinnis          ###   ########.fr        #
+#    Created: 2019/01/30 09:59:28 by dfinnis           #+#    #+#              #
+#    Updated: 2019/01/30 09:59:29 by dfinnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+# login to the system as a root user
+ssh root@server_ip_address
 
+# to change to a new user
+su - username
+
+# to check
+sudo whoami
+
+#or and type the pass
+ssh <domainuser>@<hostname>
+
+#in graphic session:
+#login with new user and type the password

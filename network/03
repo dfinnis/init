@@ -5,9 +5,9 @@
 #                                                     +:+ +:+         +:+      #
 #    By: dfinnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/12/22 12:49:57 by dfinnis           #+#    #+#              #
-#    Updated: 2018/12/22 12:49:59 by dfinnis          ###   ########.fr        #
+#    Created: 2019/01/30 09:56:31 by dfinnis           #+#    #+#              #
+#    Updated: 2019/01/30 09:56:32 by dfinnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-ifconfig en1 | grep "ether" | awk '{print $2}'
+ifconfig en1 | awk '/ether/{print $2}'

@@ -5,9 +5,12 @@
 #                                                     +:+ +:+         +:+      #
 #    By: dfinnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/01/26 14:56:57 by dfinnis           #+#    #+#              #
-#    Updated: 2019/01/26 14:56:59 by dfinnis          ###   ########.fr        #
+#    Created: 2019/01/30 09:58:21 by dfinnis           #+#    #+#              #
+#    Updated: 2019/01/30 09:58:22 by dfinnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+# RSA is a private key used for authentication +  secure data transmission
+# the encription key is public and the decription key is kept secret (private)
 
+~/.ssh/authorized_keys

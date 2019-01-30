@@ -5,9 +5,12 @@
 #                                                     +:+ +:+         +:+      #
 #    By: dfinnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/01/26 14:56:53 by dfinnis           #+#    #+#              #
-#    Updated: 2019/01/26 14:56:54 by dfinnis          ###   ########.fr        #
+#    Created: 2019/01/30 09:58:18 by dfinnis           #+#    #+#              #
+#    Updated: 2019/01/30 09:58:19 by dfinnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+/etc/init.d/ssh status | grep "Main PID"
 
+# PID is process ID
+# SSH is a Secure Shell Daemon application

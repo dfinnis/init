@@ -5,9 +5,9 @@
 #                                                     +:+ +:+         +:+      #
 #    By: dfinnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/12/22 12:50:05 by dfinnis           #+#    #+#              #
-#    Updated: 2018/12/22 12:50:06 by dfinnis          ###   ########.fr        #
+#    Created: 2019/01/30 09:56:41 by dfinnis           #+#    #+#              #
+#    Updated: 2019/01/30 09:56:42 by dfinnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-dig slash16.org | grep SERVER | awk -F '[()]' '{print $2}'
+nslookup slash16.org | grep Server | cut -d ':' -f 2 | tr -d '\t'
