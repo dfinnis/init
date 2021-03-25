@@ -2,8 +2,6 @@
 
 Intro to system & network administration.
 
-## 3 parts
-
 * [**network**](https://github.com/dfinnis/init/tree/master/network) -  Network configuration commands.
 
 * [**scripts**](https://github.com/dfinnis/init/tree/master/scripts) - Scripts to see & delete users.
