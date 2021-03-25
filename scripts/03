@@ -5,9 +5,11 @@
 #                                                     +:+ +:+         +:+      #
 #    By: dfinnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/01/30 09:59:56 by dfinnis           #+#    #+#              #
-#    Updated: 2019/01/30 09:59:57 by dfinnis          ###   ########.fr        #
+#    Created: 2019/01/30 10:00:00 by dfinnis           #+#    #+#              #
+#    Updated: 2021/01/01 00:00:00 by dfinnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-echo 42
+# Display real (human) users
+
+cut -d: -f1,3 /etc/passwd | egrep ':[0-9]{4}$' | cut -d: -f1

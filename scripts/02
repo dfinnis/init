@@ -6,9 +6,11 @@
 #    By: dfinnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/30 09:59:52 by dfinnis           #+#    #+#              #
-#    Updated: 2019/01/30 09:59:53 by dfinnis          ###   ########.fr        #
+#    Updated: 2021/01/01 00:00:00 by dfinnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
+# Delete an active user
 
 if [ $(id -u $1) -eq $(id: ‘$1’: no such user)];then
 	echo "no user: $1"
