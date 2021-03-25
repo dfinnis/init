@@ -1,6 +1,6 @@
 # init
 
-Intro to systems & network administration.
+Intro to system & network administration.
 
 ## 3 parts
 
