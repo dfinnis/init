@@ -10,6 +10,10 @@
 #                                                                              #
 # **************************************************************************** #
 
+## Identify and display the Ethernet interface characteristics:
+##     (a) Identify broadcast address
+##     (b) Identify all IP adresses which are part of the same subnet
+
 ifconfig | grep broadcast | cut -f 6 -d ' '
 ping 10.12.255.255
 arp -a

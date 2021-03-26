@@ -10,4 +10,6 @@
 #                                                                              #
 # **************************************************************************** #
 
+## Find the IP that was assigned to you by dhcp server
+
 ifconfig | grep netmask | tail -n 1 | cut -d ' ' -f 2
