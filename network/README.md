@@ -1,6 +1,6 @@
 # Network Configuration Commands
 
-**1. Get the list of the network interfaces of the machine without displaying any detail for these interfaces. Only the list of names.**
+**[1](https://github.com/dfinnis/init/blob/master/network/01) - Get the list of the network interfaces of the machine without displaying any detail for these interfaces. Only the list of names.**
 
 ```
 ifconfig -l
