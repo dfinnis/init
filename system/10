@@ -10,7 +10,9 @@
 #                                                                              #
 # **************************************************************************** #
 
-# A partition table is a table maintained on disk by the operating system 
-# describing the partitions on that disk.
+## What command lets you know who is connected to the System?
 
 sudo fdisk -l
+
+# A partition table is a table maintained on disk by the operating system 
+# describing the partitions on that disk.

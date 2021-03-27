@@ -10,6 +10,8 @@
 #                                                                              #
 # **************************************************************************** #
 
+## Figure out the PID of the SSHD service
+
 /etc/init.d/ssh status | grep "Main PID"
 
 # PID is process ID

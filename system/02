@@ -10,6 +10,8 @@
 #                                                                              #
 # **************************************************************************** #
 
+## What command can you use to rename your system?
+
 sudo hostname this-is-the-new-hostname
 
 #to check the hostname, run: hostname

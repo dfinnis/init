@@ -10,6 +10,8 @@
 #                                                                              #
 # **************************************************************************** #
 
+## Name the command that reboots the SSH service
+
 sudo /etc/init.d/ssh restart
 
 #or

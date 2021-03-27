@@ -10,6 +10,8 @@
 #                                                                              #
 # **************************************************************************** #
 
+## Find the command that kills the background command’s process
+
 #ps aux | grep tail to get PID of the process
 #sudo kill -9 <PID>
 

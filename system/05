@@ -10,6 +10,9 @@
 #                                                                              #
 # **************************************************************************** #
 
+## Name the command that determines the state of the SSH service.
+
 /etc/init.d/ssh status
 
-#or sudo service ssh status
+# or:
+# sudo service ssh status
