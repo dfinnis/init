@@ -6,7 +6,7 @@ Intro to system & network administration.
 
 2. [**system**](https://github.com/dfinnis/init/tree/master/system) - System commands on a Debian machine.
 
-3. [**scripts**](https://github.com/dfinnis/init/tree/master/scripts) - Scripts to see & delete users on a Debian machine.
+3. [**scripts**](https://github.com/dfinnis/init/tree/master/scripts) - Scripts to see & delete users.
 
 See the [subject](https://github.com/dfinnis/init/blob/master/subject.pdf) for more details.
 
