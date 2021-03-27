@@ -93,7 +93,7 @@ Log in with your password.
 
 Click on the icon in the bottom left, search for *terminal*, open *terminal*.
 
-Then switch from *user* to *root*. <br>
+Switch from *user* to *root*. <br>
 ```su root```
 
 Now you are ready to execute commands shown in [*system*](https://github.com/dfinnis/init/tree/master/system) and [*scripts*](https://github.com/dfinnis/init/tree/master/scripts).
