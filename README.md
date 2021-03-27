@@ -4,9 +4,9 @@ Intro to system & network administration.
 
 1. [**network**](https://github.com/dfinnis/init/tree/master/network) -  Network configuration commands.
 
-2. [**scripts**](https://github.com/dfinnis/init/tree/master/scripts) - Scripts to see & delete users.
+2. [**system**](https://github.com/dfinnis/init/tree/master/system) - System commands on a Debian machine.
 
-3. [**system**](https://github.com/dfinnis/init/tree/master/system) - System commands on a Debian machine.
+3. [**scripts**](https://github.com/dfinnis/init/tree/master/scripts) - Scripts to see & delete users on a Debian machine.
 
 See the [subject](https://github.com/dfinnis/init/blob/master/subject.pdf) for more details.
 
@@ -46,10 +46,9 @@ Click Start to start the VM.
 
 ### Install Debian
 
-Select: Install (not Graphical Install)
-
 Continue through the next steps with the default settings:
 
+* Graphical Install
 * Language: English
 * Location: United States
 * Configure Keyboard: American English
@@ -58,10 +57,10 @@ Continue through the next steps with the default settings:
 
 * Hostname: debian
 * Domain name: (none)
-* Root password: <choose a password>
-* Full name: <choose a name>
-* Username: <choose a username>
-* User password: <choose a password>
+* Root password: (choose a password)
+* Full name: (choose a name)
+* Username: (choose a username)
+* User password: (choose a password)
 * Time zone: Eastern
 
 ...wait a second...
@@ -74,7 +73,7 @@ Continue through the next steps with the default settings:
 
 ...wait a minute...
 
-* Software to install, add: SSH server
+* Software to install, add: SSH server & KDE Plasma
 
 ...wait 2 minutes...
 
@@ -92,26 +91,9 @@ Continue through the next steps with the default settings:
 
 Log in with your password.
 
-Then switch from *user* to *root*.
-```
-su root
-```
+Click on the icon in the bottom left, search for *terminal*, open *terminal*.
 
+Then switch from *user* to *root*. <br>
+```su root```
 
-#### Enable copy paste
-
-Enable copy paste between your machine and the VM: <br>
-In VirtualBox select the debian machine, then click Settings. <br>
-On the General page, select Advanced tab. Change:
-* Shared Clipboard: Bidirectional
-* Drag’n’Drop: Bidirectional
-
-
-
-
-####
-
-To look for a specific file:
-```
-find / -type f -name "filename" -print
-```
+Now you are ready to execute commands shown in [*system*](https://github.com/dfinnis/init/tree/master/system) and [*scripts*](https://github.com/dfinnis/init/tree/master/scripts).
