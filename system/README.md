@@ -1,6 +1,8 @@
 # System commands on a Debian machine
 
 See the [root Readme](https://github.com/dfinnis/init/blob/master/README.md) for how to setup the virtual machine.
+<br>
+<br>
 
 
 **[1.](https://github.com/dfinnis/init/blob/master/system/01) In what file can you find the installed version of your Debian?**
