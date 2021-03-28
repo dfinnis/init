@@ -1,6 +1,6 @@
 # System commands on a Debian machine
 
-See the [root Readme](https://github.com/dfinnis/init/blob/master/README.md) for how to setup the virtual machine.
+These commands are designed to run on a debian virtual machine, see the [root Readme](https://github.com/dfinnis/init/blob/master/README.md) for setup.
 <br>
 <br>
 
