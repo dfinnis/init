@@ -10,17 +10,20 @@
 #                                                                              #
 # **************************************************************************** #
 
-# login to the system as a root user
+## Explain how connect yourself as new user
+## (With graphic session and ssh session).
+
+# Login to the system as a root user
 ssh root@server_ip_address
 
-# to change to a new user
-su - username
+# Change to a new user
+su username
 
-# to check
+# Find which user I am
 sudo whoami
 
-#or and type the pass
+# Alternatively
 ssh <domainuser>@<hostname>
 
-#in graphic session:
-#login with new user and type the password
+# In a graphic session:
+# Login with new user and type the password

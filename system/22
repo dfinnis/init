@@ -10,6 +10,8 @@
 #                                                                              #
 # **************************************************************************** #
 
-sudo adduser new
+## Find the command that add a new local user
 
-#new is the name of the user, can be anything
+sudo adduser username
+
+# *username* can be anything
