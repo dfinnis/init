@@ -10,6 +10,6 @@
 #                                                                              #
 # **************************************************************************** #
 
-# Display only the login, UID and Path of each entry of the /etc/passwd file
+## Display only the login, UID and Path of each entry of the /etc/passwd file
 
 cat /etc/passwd | cut -d : -f 1,3,6 | sed 's/:/ /g' | column -t
