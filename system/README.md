@@ -68,6 +68,7 @@ sudo service ssh restart
 PID is process ID
 SSH is a Secure Shell Daemon application
 <br>
+<br>
 
 
 **[8.](https://github.com/dfinnis/init/blob/master/system/08) What file contains the RSA keys of systems that are authorized to connect via SSH?**
@@ -94,6 +95,7 @@ w
 sudo fdisk -l
 ```
 A partition table is a table maintained on disk by the operating system describing the partitions on that disk.
+<br>
 <br>
 
 
@@ -226,7 +228,6 @@ Human users have UIDs starting at 1000 and ending at 6000, so you can use that f
 **[22.](https://github.com/dfinnis/init/blob/master/system/22) Find the command that add a new local user**
 
 ```
-
 sudo adduser username
 ```
 *username* can be anything
