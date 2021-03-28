@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-# Delete an active user
+## Delete an active user on the VM
 
 if [ $(id -u $1) -eq $(id: ‘$1’: no such user)];then
 	echo "no user: $1"
