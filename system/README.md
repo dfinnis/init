@@ -140,17 +140,17 @@ sudo tail -f /var/log/syslog &
 ```
 sudo pkill tail
 ```
-or
+Or
 ```
 sudo pkill $1
 ```
-or
+Or
 
-to get PID of the process:
+To get PID of the process:
 ```
 ps aux | grep tail
 ```
-then
+Then
 ```
 sudo kill -9 <PID>
 ```
