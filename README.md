@@ -10,7 +10,7 @@ Intro to system & network administration.
 
 See the [subject](https://github.com/dfinnis/init/blob/master/subject.pdf) for more details.
 
-#### Final Score 99/100
+*Final Score 99/100*
 
 
 ## Debian Virtual Machine
